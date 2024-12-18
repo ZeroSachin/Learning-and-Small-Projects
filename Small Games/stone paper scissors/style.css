@@ -1,0 +1,126 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: grey;
+  background-image: url(/Images/s1.jpg);
+  background-repeat: no-repeat;
+  transition: ease-in;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+.main{
+  height: 300px;  
+  width: 80%;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  background-color: rgba(255, 255, 255, 0.17);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px ;
+  backdrop-filter: blur(2px);
+}
+
+.stats{
+  width: 80%;
+  height: 100px;
+  top: 5%;
+  left: 10%;
+  background-color: rgba(255, 255, 255, 0.17);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  position: absolute;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  gap: 70px;
+  backdrop-filter: blur;
+}
+
+.stats p{
+  font-size: 2rem;
+  color: azure;
+}
+
+.img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  backdrop-filter: blur;
+}
+
+.img1{
+  background-image: url(/Images/stone.png);
+  background-color:rgba(0, 0, 255, 0.5);
+}
+
+.img2{
+  background-image: url(/Images/paper.png);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.img3{
+  background-image: url(/Images/scissors.png);
+  background-color: rgba(192, 192, 192, 0.5);
+}
+
+@media (max-width: 900px) {
+  .main{
+    height: 200px
+  }
+
+  .img{
+    height: 150px;
+    width: 150px;
+  }
+  .stats{
+    gap: 50px;
+  }
+}
+
+@media (max-width: 700px) {
+  .main{
+    height: 150px
+  }
+
+  .img{
+    height: 100px;
+    width: 100px;
+  }
+
+  .stats p{
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .main{
+    margin-top: 20px;
+    height: 425px;
+    gap: 2%;
+    top: 20%;
+    flex-direction: column;
+  }
+
+  .img{
+    height: 125px;
+    width: 125px;
+  }
+
+  .stats{
+    gap: 30px;
+  }
+
+  .stats p{
+    font-size: 0.8rem;
+  }
+}
