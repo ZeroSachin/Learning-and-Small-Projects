@@ -3,7 +3,7 @@ body{
   padding: 0;
   box-sizing: border-box;
   background-color: grey;
-  background-image: url(/Images/s1.jpg);
+  background-image: url(Images/s1.jpg);
   background-repeat: no-repeat;
   transition: ease-in;
   background-size: cover;
@@ -59,17 +59,17 @@ body{
 }
 
 .img1{
-  background-image: url(/Images/stone.png);
+  background-image: url(Images/stone.png);
   background-color:rgba(0, 0, 255, 0.5);
 }
 
 .img2{
-  background-image: url(/Images/paper.png);
+  background-image: url(Images/paper.png);
   background-color: rgba(0, 0, 0, 0.6);
 }
 
 .img3{
-  background-image: url(/Images/scissors.png);
+  background-image: url(Images/scissors.png);
   background-color: rgba(192, 192, 192, 0.5);
 }
 
