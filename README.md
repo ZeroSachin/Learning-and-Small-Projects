@@ -5,3 +5,5 @@
 <b>Dec-18-2024:</b> <p>Today, I created a small game named 'Rock-Paper-Scissors' using HTML, CSS, and JavaScript.</p>
 
 <b>Dec-19-2024:</b> <p>Today, I created  'Tic tac toe' using HTML, CSS, and JavaScript.</p>
+
+<b>Dec-20-2024:</b> <p>Today, I created a website using HTML, CSS, and JavaScript that displays the weather when you input a city name. <a href="https://zerosachin.github.io/weatherApp/">View App</a></p>
