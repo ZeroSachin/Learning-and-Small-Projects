@@ -7,3 +7,5 @@
 <b>Dec-19-2024:</b> <p>Today, I created  'Tic tac toe' using HTML, CSS, and JavaScript.</p>
 
 <b>Dec-20-2024:</b> <p>Today, I created a website using HTML, CSS, and JavaScript that displays the weather when you input a city name. <a href="https://zerosachin.github.io/weatherApp/">View App</a></p>
+
+<b>Dec-21-2024:</b> <p>Added a Tools section that includes two tools: a currency converter and a weather app.</p>
