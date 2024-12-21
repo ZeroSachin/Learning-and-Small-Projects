@@ -1,0 +1,50 @@
+body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background: url(Images/s5.jpg);
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #121212;
+}
+
+div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 40px;
+}
+
+p{
+  font-size:7rem;
+}
+
+button{
+  display: flex;
+  align-items: center;
+  border: none;
+  height: 50px;
+  width: max-content;
+  font-size: 3rem;
+  border-radius: 12px;
+  text-align: center;
+  background: transparent;
+  border: 2px solid;
+} 
+
+.increase{
+  border-color: blue ;
+}
+
+.decrease{
+  border-color: red;
+}
+
+.reset{
+  border-color: green;
+}
