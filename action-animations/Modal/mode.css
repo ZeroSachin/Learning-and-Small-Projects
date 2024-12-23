@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(/Images//s5.jpg);
+}
+
+.banner{
+  background-color: white;
+  height: 250px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 20px;
+}
+
+.banner p{
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.banner button{
+  border: none;
+  background-color: rgba(0, 0, 255, 0.4) ;
+  height: 40px;
+  width: 200px;
+  border-radius: 12px;
+  font-size: 2rem;
+}
+
+.modal-overlay{
+  position: fixed;
+  width: 600px;
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: white;
+  border-radius: 16px;
+  display: none;
+}
+
+.close{
+  border: none;
+  height: 40px;
+  width: 40px;
+  font-size: 2rem;
+  font-weight: 800;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.modal-overlay p{
+  padding: 20px;
+}
+
+.modal-overlay-show{
+  display: flex;
+}
