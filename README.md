@@ -10,6 +10,5 @@
 
 <b>Dec-21-2024:</b> <p>Added a Tools section that includes two tools: a currency converter and a weather app.</p>
 
-<b>Dec-22-2024:</b> <p>Added Counter tool that counts on click.</p>
-
-<b>Dec-23-2024:</b> <p>Added a folder for some important actions and animations with JS. Inside that folder added a "background changer", "modal" and "sidebar"</p>
+<b>Dec-23-2024:</b> <p> Added Counter tool that counts on click and
+Added a folder for some important actions and animations with JS. Inside that folder added a "background changer", "modal" and "sidebar"</p>
