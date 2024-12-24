@@ -12,3 +12,6 @@
 
 <b>Dec-23-2024:</b> <p> Added Counter tool that counts on click and
 Added a folder for some important actions and animations with JS. Inside that folder added a "background changer", "modal" and "sidebar"</p>
+
+
+...........
